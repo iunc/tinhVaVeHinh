@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>JS</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-header bg-danger text-uppercase text-white font-weight-bold text-center">
+                Chương trình tính chu vi - diện tích - vẽ hình</div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="chieuDai" class="form-label font-weight-bold">Nhập chiều dài</label>
+                            <input type="text" class="form-control" placeholder="Vd: 100" id="chieuDai">
+                        </div>
+                        <div class="form-group">
+                            <label for="chieuRong" class="form-label font-weight-bold">Nhập chiều rộng</label>
+                            <input type="text" class="form-control" placeholder="Vd: 50" id="chieuRong">
+                        </div>
+                        <button class="btn btn-success" id="btn">Tính & vẽ hình</button>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="chuVi" class="form-label font-weight-bold">Chu vi</label>
+                            <input type="text" class="form-control" id="chuVi">
+                        </div>
+                        <div class="form-group">
+                            <label for="dienTich" class="form-label font-weight-bold">Diện tích</label>
+                            <input type="text" class="form-control" id="dienTich">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="font-weight-bold">Hình vẽ</span>
+                        <div id="hinhVe" class="mt-3"></div>
+                        <div class="mt-3">
+                            <input type="radio" id="mauDo" name="color" value="mauDo" checked>
+                            <label for="mauDo" class="text-danger">Đỏ</label>
+                            <input type="radio" id="mauCam" name="color" value="mauCam">
+                            <label for="mauCam" class="text-warning">Cam</label>
+                            <input type="radio" id="mauLuc" name="color" value="mauLuc">
+                            <label for="mauLuc" class="text-success">Lục</label>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Optional JavaScript -->
+        <script src="./main.js"></script>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
